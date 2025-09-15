@@ -1,0 +1,16 @@
+{
+  "name": "MediSync",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm start",
+    "client": "cd Frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.454.0",
+    "react-toastify": "^10.0.6"
+  }
+}
